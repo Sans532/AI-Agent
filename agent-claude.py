@@ -4,7 +4,7 @@ person = input("Enter the name: ")
 
 config_list = [{
     "model": "Claude 3.5 Sonnet	",
-    "api_key": "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",
+    "api_key": "YOUR_ANTHROPIC_API_KEY",
     "api_type": "anthropic",
     "max_tokens": 10000
 }]
