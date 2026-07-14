@@ -4,7 +4,7 @@ person = input("Enter the name: ")
 
 config_list = [{
     "model": "gemini-1.5-flash",
-    "api_key": os.environ["GROQ_API_KEY"],
+    "api_key": os.environ["GEMINI_API_KEY"],
     "api_type": "google"
 }]
 
