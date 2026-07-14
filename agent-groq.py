@@ -4,7 +4,7 @@ person = input("Enter the name: ")
 
 config_list = [{
     "model": "gemma2-9b-it",
-    "api_key": "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",
+    "api_key": os.environ["GROQ_API_KEY"],
     "api_type": "groq"
 }]
 
