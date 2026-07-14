@@ -4,7 +4,7 @@ person = input("Enter the name: ")
 
 config_list = [{
     "model": "mistral-small-latest",
-    "api_key": "DIkxGnA4OrmV86eu9gTQAr0XGbKh0WlV",
+    "api_key": os.environ["MISTRAL_API_KEY"],
     "api_type": "mistral"
 }]
 
